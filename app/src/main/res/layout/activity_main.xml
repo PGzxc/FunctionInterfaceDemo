@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_predicate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Predicate" />
+
+        <Button
+            android:id="@+id/btn_function"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Function" />
+
+        <Button
+            android:id="@+id/btn_supplier"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="supplier" />
+
+        <Button
+            android:id="@+id/btn_consumer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="consumer" />
+
+        <Button
+            android:id="@+id/btn_comparators"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="comparators" />
+        <Button
+            android:id="@+id/btn_optionals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="optionals" />
+        <Button
+            android:id="@+id/btn_clock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="clock" />
+    </LinearLayout>
+</ScrollView>
